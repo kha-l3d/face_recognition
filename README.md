@@ -1,7 +1,5 @@
 
-markdown
-Copy
-Edit
+
 # 📸 Face Recognition using OpenCV and face_recognition
 
 This project is a simple real-time face recognition system using a webcam.
@@ -27,9 +25,7 @@ pip install face_recognition opencv-python numpy
 Note: face_recognition depends on dlib, which may require additional build tools depending on your OS (e.g., CMake and Visual C++ Build Tools on Windows).
 
 📁 Folder Structure
-css
-Copy
-Edit
+
 face_recognition/
 ├── images_folder/
 │   ├── ramez_1.jpg
@@ -46,9 +42,7 @@ Add clear face images of the people you want to recognize into the images_folder
 
 Run the main Python file:
 
-bash
-Copy
-Edit
+
 python main.py
 The webcam will open and start detecting faces.
 
