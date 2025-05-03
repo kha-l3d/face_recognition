@@ -38,6 +38,7 @@ Each image file should be named like name_1.jpg, name_2.png, etc.
 The name shown in the recognition result is taken from the filename (before the underscore).
 
 🚀 How to Run
+
 Add clear face images of the people you want to recognize into the images_folder/ directory.
 
 Run the main Python file:
@@ -51,6 +52,7 @@ If a recognized face appears in front of the camera, their name will be displaye
 Press Esc to quit the program.
 
 ✅ Tips
+
 Make sure each image in images_folder contains only one face.
 
 Use good lighting and frontal face images for better accuracy.
@@ -58,8 +60,10 @@ Use good lighting and frontal face images for better accuracy.
 Names are extracted automatically from the filename:
 
 Example:
+
 ahmed_1.jpg → will be shown as "ahmed"
 
 📌 License
+
 This project is for educational and personal use.
 No commercial use is allowed without permission.
