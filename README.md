@@ -63,7 +63,7 @@ Names are extracted automatically from the filename:
 
 ahmed_1.jpg → will be shown as "ahmed"
 
-##📌 License
+## 📌 License
 
 This project is for educational and personal use.
 No commercial use is allowed without permission.
