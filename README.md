@@ -16,13 +16,13 @@ Built with Python, it uses the `face_recognition` library for facial detection a
   - `opencv-python`
   - `numpy`
 
-### Install Dependencies
+## Install Dependencies
 
 pip install face_recognition opencv-python numpy
 Note: face_recognition depends on dlib, which may require additional build tools depending on your OS
 (e.g., CMake and Visual C++ Build Tools on Windows).
 
-📁 Folder Structure
+## 📁 Folder Structure
 
 face_recognition/
 ├── images_folder/
@@ -37,7 +37,7 @@ Each image file should be named like name_1.jpg, name_2.png, etc.
 
 The name shown in the recognition result is taken from the filename (before the underscore).
 
-🚀 How to Run
+## 🚀 How to Run
 
 Add clear face images of the people you want to recognize into the images_folder/ directory.
 
@@ -51,7 +51,7 @@ If a recognized face appears in front of the camera, their name will be displaye
 
 Press Esc to quit the program.
 
-✅ Tips
+## ✅ Tips
 
 Make sure each image in images_folder contains only one face.
 
@@ -59,11 +59,11 @@ Use good lighting and frontal face images for better accuracy.
 
 Names are extracted automatically from the filename:
 
-Example:
+### Example:
 
 ahmed_1.jpg → will be shown as "ahmed"
 
-📌 License
+##📌 License
 
 This project is for educational and personal use.
 No commercial use is allowed without permission.
